@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pavo AI — Turn a script into a finished vertical video</title>
+<meta name="description" content="Pavo AI is an AI video generator for short drama and social clips: script to shot list, consistent characters, AI voice-over, burned-in captions, 9:16 export.">
+<link rel="canonical" href="https://youram470-art.github.io/pavo-ai-video/">
+<style>
+:root{--ink:#101418;--muted:#5b6672;--line:#e4e8ee;--accent:#5b5bd6}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#fff}
+.wrap{max-width:780px;margin:0 auto;padding:48px 22px 72px}
+header{border-bottom:1px solid var(--line);padding-bottom:22px;margin-bottom:36px}
+h1{font-size:34px;line-height:1.2;margin:0 0 12px}
+h2{font-size:21px;margin:36px 0 10px}
+p{margin:0 0 16px}
+.lead{font-size:18px;color:var(--muted)}
+.cta{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:8px;margin:8px 0 4px}
+ul{margin:0 0 16px;padding-left:22px}
+li{margin:6px 0}
+.note{font-size:14px;color:var(--muted);border-top:1px solid var(--line);margin-top:44px;padding-top:18px}
+code{background:#f4f6f9;padding:1px 5px;border-radius:4px;font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Pavo AI: from a script to a finished vertical video</h1>
+<p class="lead">An AI video generator built for short drama, serialized fiction and social clips — the kind of video that has to look the same in episode 1 and episode 40.</p>
+<a class="cta" href="https://pavoai.app/">Try Pavo AI</a>
+</header>
+
+<h2>Why vertical drama is hard to automate</h2>
+<p>A 60-second vertical episode is not one prompt. It is a script broken into shots, a cast that must stay recognizable, dialogue that needs a voice, and captions that have to survive being watched on mute. Most text-to-video tools do one of those well and leave the rest to a human with a timeline.</p>
+<p>Pavo AI approaches the problem from the script side. You paste a script or an outline, and the tool proposes a shot list: what the camera sees, who is in frame, and how long each beat should last. From there it generates the shots, keeps characters consistent with reference images, adds AI voice-over, burns in captions, and exports a 9:16 clip ready for Reels, TikTok or Shorts.</p>
+
+<h2>What the workflow looks like</h2>
+<ul>
+<li><strong>Script to shot list.</strong> Scenes are split into individual shots with prompts you can edit before spending any generation time.</li>
+<li><strong>Character consistency.</strong> Reference images anchor a character's face, hair and wardrobe across shots, which is the difference between a series and a slideshow.</li>
+<li><strong>Voice and captions.</strong> AI voice-over in multiple languages, with captions styled for mobile and burned into the picture.</li>
+<li><strong>9:16 by default.</strong> Frames are composed for a phone held upright, not cropped from a landscape render.</li>
+</ul>
+
+<h2>Who it is for</h2>
+<p>Short-drama studios shipping several episodes a week, solo creators who write serialized fiction, and social teams that need a steady stream of narrative clips without booking a cast, a location and a crew. The useful comparison is not "AI vs. a film set" — it is "a first cut tonight vs. a first cut next month".</p>
+<p>If you want to see the current feature set and pricing, the product page is at <a href="https://pavoai.app/">pavoai.app</a>. There is also an open-source MCP server that exposes the workflow to agents: <a href="https://github.com/youram470-art/pavo-ai-mcp">pavo-ai-mcp</a>.</p>
+
+<h2>Notes on quality</h2>
+<p>AI video still fails in recognizable ways: hands, crowds, fast camera moves, and dialogue-heavy scenes where lip sync matters. The practical approach is to keep shots short, prefer medium and close framing, and treat each shot as a separate generation you can retry. Pavo AI is designed around that reality — per-shot regeneration instead of re-rendering a whole scene.</p>
+<p>This page is an independent write-up maintained by the Pavo AI team. Product and pricing details live on the main site.</p>
+
+<p class="note">Last updated November 2026 · <a href="https://pavoai.app/">pavoai.app</a></p>
+</div>
+</body>
+</html>
